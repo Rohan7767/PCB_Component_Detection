@@ -1,0 +1,58 @@
+{
+  "os":  "Linux-6.1.85+-x86_64-with-glibc2.35",
+  "python":  "3.10.12",
+  "startedAt":  "2024-10-27T07:28:33.279073Z",
+  "args":  [
+    "--img",
+    "416",
+    "--batch",
+    "16",
+    "--epochs",
+    "100",
+    "--data",
+    "./Dataset/pcb_data/data.yaml",
+    "--cfg",
+    "./yolov5/models/yolov5s.yaml",
+    "--weights",
+    "/content/drive/MyDrive/Real_PCB",
+    "--name",
+    "yolov5s_results",
+    "--cache",
+    "--device",
+    "0"
+  ],
+  "program":  "/content/drive/MyDrive/Real_PCB/./yolov5/train.py",
+  "codePath":  "yolov5/train.py",
+  "email":  "rohanroyfkk3@gmail.com",
+  "root":  "/content/drive/MyDrive/Real_PCB",
+  "host":  "d2550f649502",
+  "username":  "root",
+  "executable":  "/usr/bin/python3",
+  "codePathLocal":  "yolov5/train.py",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "120942624768",
+      "used":  "35196612608"
+    }
+  },
+  "memory":  {
+    "total":  "13609431040"
+  },
+  "cpu":  {
+    "count":  1,
+    "countLogical":  2
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "12.2"
+}
